@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\MAP">
+      <UniqueIdentifier>{3ad8ac08-24d9-4c87-915f-8da0b5127bda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\DIAMOND">
+      <UniqueIdentifier>{04ebfc3e-7459-4053-9aff-2ec366a7a570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\DOOR">
+      <UniqueIdentifier>{dbc3d0e7-6ae1-4338-8106-fe412ca24d90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MONSTER">
+      <UniqueIdentifier>{5586a13d-6c65-4ed5-b231-f23c19f8d18e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\EVENT">
+      <UniqueIdentifier>{d3f42478-da66-4a21-b41c-ef61247e4f0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ITEM">
+      <UniqueIdentifier>{d077843e-43e5-4a32-a1fa-8d4a6c3e70e6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="D2D1Base.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Render.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="D2D1Base.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IDCounter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>头文件\MAP</Filter>
+    </ClInclude>
+    <ClInclude Include="Map01.h">
+      <Filter>头文件\MAP</Filter>
+    </ClInclude>
+    <ClInclude Include="MapAll.h">
+      <Filter>头文件\MAP</Filter>
+    </ClInclude>
+    <ClInclude Include="Diamond.h">
+      <Filter>头文件\DIAMOND</Filter>
+    </ClInclude>
+    <ClInclude Include="Lava.h">
+      <Filter>头文件\DIAMOND</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>头文件\DOOR</Filter>
+    </ClInclude>
+    <ClInclude Include="DoorEx.h">
+      <Filter>头文件\DOOR</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>头文件\MONSTER</Filter>
+    </ClInclude>
+    <ClInclude Include="Slime.h">
+      <Filter>头文件\MONSTER</Filter>
+    </ClInclude>
+    <ClInclude Include="Treasure.h">
+      <Filter>头文件\ITEM</Filter>
+    </ClInclude>
+    <ClInclude Include="Skeleton.h">
+      <Filter>头文件\MONSTER</Filter>
+    </ClInclude>
+    <ClInclude Include="Bats.h">
+      <Filter>头文件\MONSTER</Filter>
+    </ClInclude>
+    <ClInclude Include="Wizard.h">
+      <Filter>头文件\MONSTER</Filter>
+    </ClInclude>
+    <ClInclude Include="Load.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Map02.h">
+      <Filter>头文件\MAP</Filter>
+    </ClInclude>
+    <ClInclude Include="Orcish.h">
+      <Filter>头文件\MONSTER</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>头文件\ITEM</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
