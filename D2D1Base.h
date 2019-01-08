@@ -40,5 +40,5 @@ HRESULT LoadBitmapFromFile(
 );
 
 void Draw(int ID, int dx, int dy, int x = 0, int y = 0, int divx = 1, int divy = 1);
-void Draw4(int ID, int dx, int dy, int x=0, int y=0, int divx = 4, int divy = 4);
+void Draw4(int ID, int dx, int dy, int x = 0, int y = 0, int divx = 4, int divy = 4);
 void Draw838(int ID, int dx, int dy, int x = 0, int y = 0, int divx = 8, int divy = 38);

@@ -7,6 +7,7 @@
 Character braver;
 Menu menu;
 Map *map[60] = { NULL };
+Map **MP = map;
 
 void Render::InitSource()
 {
@@ -41,11 +42,18 @@ void Render::Paint()
 
 void Render::Move(int direct)
 {
+	if (!braver.state) return;
+	braver.state = false;
+	braver.direct = direct;
 	int x = X + xx[direct], y = Y + yy[direct];
 	if (map[stair]->item[x][y])
 	{
 		map[stair]->Event(x, y);
-		if (map[stair]->item[x][y] && map[stair]->item[x][y]->collide == false) return;
+		if (map[stair]->item[x][y] && map[stair]->item[x][y]->collide == false)
+		{
+			braver.state = true;
+			return;
+		}
 	}
 	braver.Move(direct);
 }

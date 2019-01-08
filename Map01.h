@@ -32,7 +32,7 @@ void Map01::Init()
 	item[7][3] = new JewelRed; item[8][3] = new KeyYellow; item[2][4] = new Skeleton;
 	item[7][4] = new JewelBlue; item[8][4] = new DrugRed; item[2][5] = new DoorYellow;
 	item[9][5] = new DoorYellow; item[1][6] = new KeyYellow; item[6][6] = new DoorYellow;
-	item[7][6] = new Bat; item[8][6] = new Wizard; item[9][6] = new Bat;
+	item[7][6] = new Bat; item[8][6] = new MagicJunior; item[9][6] = new Bat;
 	item[2][7] = new SkeletonWarrior; item[2][8] = new DoorYellow; item[6][9] = new DoorYellow;
 	item[10][9] = new DoorYellow; item[1][10] = new DrugRed; item[3][10] = new KeyYellow;
 	item[5][10] = new KeyYellow; item[10][10] = new Bat; item[1][11] = new DrugRed;

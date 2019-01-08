@@ -11,5 +11,3 @@ public:
 	//IWICImagingFactory * pImageFactory = NULL;
 	//ID2D1Bitmap *bitmap = NULL;
 };
-
-void Event();

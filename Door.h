@@ -5,20 +5,21 @@
 class Door :public Item
 {
 public:
-	void Init(int p);
+	void Init(int ID,int p);
 	void Render(int dx, int dy);
 	void Unlock(Item** pItem);
 protected:
-	int ID = ID_Door, px, py = 0;
+	int ID, px, py = 0;
 private:
 	static void CALLBACK Timer(HWND hwnd, UINT message, UINT iTimerID, DWORD dwTime);
 	void Update();
 	Item **pItem;
 };
 
-void Door::Init(int px)
+void Door::Init(int ID,int px)
 {
 	collide = false;
+	this->ID = ID;
 	this->px = px;
 }
 

@@ -12,7 +12,7 @@ public:
 void Menu::Init()
 {
 	hp = 1000;
-	agg = def = 100;
+	agg = def = 1000;
 	coin = 0;
 	stair = 1;
 	yellow = blue = red = 1;

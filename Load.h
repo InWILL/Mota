@@ -14,9 +14,15 @@ void LoadFile()
 	LoadBitmapFromFile(pRT, pIWICFactory, TEXT("Graphics/Icons/103-02.png"), 32, 32, &Bitmap[ID_JewelBlue]);
 	LoadBitmapFromFile(pRT, pIWICFactory, TEXT("Graphics/Icons/105-03.png"), 32, 32, &Bitmap[ID_Wand]);
 	LoadBitmapFromFile(pRT, pIWICFactory, TEXT("Graphics/Characters/202-other02.png"), 128, 128, &Bitmap[ID_Door]);
+	LoadBitmapFromFile(pRT, pIWICFactory, TEXT("Graphics/Characters/203-other03.png"), 128, 128, &Bitmap[ID_Wall]);
+	LoadBitmapFromFile(pRT, pIWICFactory, TEXT("Graphics/Characters/001-npc01.png"), 128, 128, &Bitmap[ID_NPC]);
 	LoadBitmapFromFile(pRT, pIWICFactory, TEXT("Graphics/Characters/031-Monster01.png"), 128, 128, &Bitmap[ID_Slime]);
 	LoadBitmapFromFile(pRT, pIWICFactory, TEXT("Graphics/Characters/033-Monster03.png"), 128, 128, &Bitmap[ID_Skeleton]);
 	LoadBitmapFromFile(pRT, pIWICFactory, TEXT("Graphics/Characters/032-Monster02.png"), 128, 128, &Bitmap[ID_Bat]);
-	LoadBitmapFromFile(pRT, pIWICFactory, TEXT("Graphics/Characters/035-Monster05.png"), 128, 128, &Bitmap[ID_Wizard]);
 	LoadBitmapFromFile(pRT, pIWICFactory, TEXT("Graphics/Characters/034-Monster04.png"), 128, 128, &Bitmap[ID_Orcish]);
+	LoadBitmapFromFile(pRT, pIWICFactory, TEXT("Graphics/Characters/035-Monster05.png"), 128, 128, &Bitmap[ID_Wizard]);
+	LoadBitmapFromFile(pRT, pIWICFactory, TEXT("Graphics/Characters/036-Monster06.png"), 128, 128, &Bitmap[ID_Guard]);
+	LoadBitmapFromFile(pRT, pIWICFactory, TEXT("Graphics/Characters/037-Monster07.png"), 128, 128, &Bitmap[ID_Knight]);
+	LoadBitmapFromFile(pRT, pIWICFactory, TEXT("Graphics/Characters/038-Monster08.png"), 128, 128, &Bitmap[ID_Magic]);
+	LoadBitmapFromFile(pRT, pIWICFactory, TEXT("Graphics/Characters/039-Monster09.png"), 384, 384, &Bitmap[ID_Dragon]);
 }

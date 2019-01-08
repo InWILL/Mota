@@ -13,11 +13,12 @@ public:
 	//void Clearup();
 	void Render();
 	void Move(int dir);
+	int direct = 0;
+	bool state = true;
 private:
 	static void CALLBACK Timer(HWND hwnd, UINT message, UINT iTimerID, DWORD dwTime);
 	void Update();
-	int direct = 0, point = 0;
-	bool state = true;
+	int point = 0;
 };
 
 void Character::Render()
@@ -32,9 +33,6 @@ void Character::Render()
 
 void Character::Move(int direct)
 {
-	if (!state) return;
-	this->direct = direct;
-	state = false;
 	SetTimer(hwnd, (UINT_PTR)this, 20, Timer);
 }
 

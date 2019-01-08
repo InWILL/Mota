@@ -8,6 +8,15 @@
 #include"Skeleton.h"
 #include"Bats.h"
 #include"Wizard.h"
+#include"Dragon.h"
+#include"Guard.h"
+#include"Magic.h"
+#include"Orcish.h"
+#include"Knight.h"
+#include"Elder.h"
+#include"Dealer.h"
+#include"Store.h"
+#include"Talk.h"
 
 class Map
 {

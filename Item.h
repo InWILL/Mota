@@ -9,5 +9,6 @@ public:
 	virtual void Update() {};
 	virtual void Render(int,int) {};
 	virtual void Event(Item**) {};
+	void(*EventEx)() = NULL;
 	bool collide;
 };

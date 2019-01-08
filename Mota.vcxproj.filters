@@ -31,6 +31,9 @@
     <Filter Include="头文件\ITEM">
       <UniqueIdentifier>{d077843e-43e5-4a32-a1fa-8d4a6c3e70e6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\NPC">
+      <UniqueIdentifier>{f2a496c8-9bc6-40c7-be8b-54da216cb540}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -112,6 +115,33 @@
     </ClInclude>
     <ClInclude Include="Item.h">
       <Filter>头文件\ITEM</Filter>
+    </ClInclude>
+    <ClInclude Include="Guard.h">
+      <Filter>头文件\MONSTER</Filter>
+    </ClInclude>
+    <ClInclude Include="Knight.h">
+      <Filter>头文件\MONSTER</Filter>
+    </ClInclude>
+    <ClInclude Include="Magic.h">
+      <Filter>头文件\MONSTER</Filter>
+    </ClInclude>
+    <ClInclude Include="Dragon.h">
+      <Filter>头文件\MONSTER</Filter>
+    </ClInclude>
+    <ClInclude Include="Elder.h">
+      <Filter>头文件\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Dealer.h">
+      <Filter>头文件\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Store.h">
+      <Filter>头文件\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc.h">
+      <Filter>头文件\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Talk.h">
+      <Filter>头文件\EVENT</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

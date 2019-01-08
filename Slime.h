@@ -17,5 +17,11 @@ public:
 class SlimeBlack :public Monster
 {
 public:
-	SlimeBlack() { Init(ID_Slime, 2, 45, 20, 2, 2, TEXT("黑色史莱姆")); }
+	SlimeBlack() { Init(ID_Slime, 2, 130, 60, 3, 8, TEXT("黑色史莱姆")); }
+};
+
+class SlimeKing :public Monster
+{
+public:
+	SlimeKing() { Init(ID_Slime, 3, 360, 310, 20, 40, TEXT("史莱姆王")); }
 };
