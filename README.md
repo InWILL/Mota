@@ -19,4 +19,4 @@ DirectX11
 load the "Mota.vcxproj" by VS2017  
 Build it!  
 
-Sakuya：Let's go back to compile time before.  
+Sakuya：Let time go back to compile before.  
