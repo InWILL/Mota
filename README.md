@@ -3,7 +3,8 @@
 ##A new RPG game mould.  
 Coming soon...  
 
-Because the Mysterious Magic from the East(Winter Vocation),  
+Because of the Mysterious Magic from the East(Winter Vocation),  
+Warning...
 A huge wave of update is approaching! Not the last wave!  
 
 Bitmap resource from Tower of the Sorcerer Forum  
